@@ -1,5 +1,9 @@
 html, body {
     margin:10%;
     background-color: #161616;
-    color:#fff;
+    color:#161616;
+}
+
+a {
+    margin-top:5%;
 }
