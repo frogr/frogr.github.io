@@ -1,0 +1,9 @@
+//TODO
+
+
+
+1. dig out this create-react-app crap
+2. scaffold each component out
+  2a. i would love to use JSON to fill all the different area (so i can use like data.project[0].map => Projects.js or something)
+3. actually write out all the data
+4. fill out each component 
