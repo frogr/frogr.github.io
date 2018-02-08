@@ -1,0 +1,50 @@
+{
+  "about": {
+    "professional": {
+      "education": ["Ceres High School", "Lambda School of Computer Science"],
+      "techSkills": [
+        "JavaScript",
+        "Python",
+        "React",
+        "Django",
+        "HTML",
+        "CSS",
+        "LESS",
+        "Node",
+        "Express",
+        "MongoDB",
+        "Git"
+      ],
+      "softSkills": [
+        "Effective communicator",
+        "Feedback-driven",
+        "Humble",
+        "Team player"
+      ]
+    },
+    "personal": {
+      "likes": ["Learning", "eSports", "Music", "Chewing Gum", "Teaching"],
+      "favorites": {
+        "movies": [
+          "Drive",
+          "The Pursuit of Happyness",
+          "Blade Runner",
+          "Blade Runner 2049"
+        ],
+        "books": [
+          "BrainBoy and the DeathMaster",
+          "Cloud Atlas",
+          "Fahrenheit 451"
+        ],
+        "storyGames": [
+          "Metal Gear Solid Series",
+          "The Talos Principle",
+          "To The Moon"
+        ],
+        "esportGames": ["League of Legends", "Rocket League", "StarCraft 2"],
+        "albums": ["Coloring Book", "Farewell Starlite!", "Saturation I-III"]
+      }
+    }
+  },
+  "projects": {}
+}
