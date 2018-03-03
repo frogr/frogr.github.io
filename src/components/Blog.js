@@ -7,7 +7,7 @@ const Blog = () => {
       {BlogContent.map(blog => {
         return (
           <div>
-            <h2>{blog.title}</h2>
+            <h2>{blog.title} </h2>
             <p>{blog.date}</p>
             <p>{blog.body}</p>
           </div>
