@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Blog from './components/Blog';
+import BlogRoot from './components/BlogRoot';
+import BlogPost from './components/BlogPost';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Header from './components/Header';
@@ -14,7 +15,8 @@ ReactDOM.render(
     <Router>
       <div>
         <Route path="/*" component={Header} />
-        <Route exact path="/blog" component={Blog} />
+        <Route exact path="/blog" component={BlogRoot} />
+        <Route exact path="/blog/:id" component={BlogPost} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
       </div>
