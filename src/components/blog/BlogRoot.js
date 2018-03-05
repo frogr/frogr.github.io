@@ -14,7 +14,7 @@ const Blog = () => {
                 <Link to={'/blog/' + blog.id}>{blog.title}</Link>
               </h2>
               <p>{blog.date}</p>
-              <p>{blog.body}</p>
+              <p>{blog.blurb}</p>
             </div>
           );
         })}

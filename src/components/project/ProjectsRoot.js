@@ -14,7 +14,7 @@ const Project = () => {
                 <Link to={'/projects/' + project.id}>{project.title}</Link>
               </h2>
               <p>{project.date}</p>
-              <p>{project.body}</p>
+              <p>{project.blurb}</p>
             </div>
           );
         })}
