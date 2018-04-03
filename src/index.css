@@ -14,12 +14,20 @@ ul {
   margin: 0;
   list-style: none;
 }
+hr {
+  width: 50%;
+}
 img {
   width: 3%;
 }
+.headerContainer {
+  font-size: 1.3rem;
+}
+.textContent {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.2rem;
+}
 .projectInfo {
   padding-bottom: 3%;
-}
-hr {
-  width: 50%;
 }

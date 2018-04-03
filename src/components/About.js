@@ -1,11 +1,11 @@
 import React from 'react';
 const About = () => {
   return (
-    <div>
+    <div className="textContent">
       <p>
         Hi there! I'm Austin French and I'm a web developer. I've spent the past
         year delving into programming and computer science, and for two years
-        prior to that I spent my time as a player or coach in eSports. I'm
+        prior to that I spent my time as a player and coach in eSports. I'm
         currently a Project Manager at Lambda School, but I'm looking to line up
         opportunities to pursue after I complete my contract in August.
       </p>

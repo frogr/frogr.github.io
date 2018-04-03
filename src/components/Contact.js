@@ -1,7 +1,7 @@
 import React from 'react';
 const Contact = () => {
   return (
-    <div>
+    <div class="textContent">
       <p>
         I'm currently working as a Project Manager at Lambda School, but looking
         for offers beginning around September of 2018. Feel free to email me!

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Project = () => {
   return (
-    <div>
+    <div className="textContent">
       {ProjectContent.slice(0)
         .map(project => {
           return (
