@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -13,4 +13,13 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+img {
+  width: 3%;
+}
+.projectInfo {
+  padding-bottom: 3%;
+}
+hr {
+  width: 50%;
 }

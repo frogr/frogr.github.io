@@ -6,7 +6,6 @@ const Project = () => {
   return (
     <div>
       {ProjectContent.slice(0)
-        .reverse()
         .map(project => {
           return (
             <div>
