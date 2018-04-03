@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import getClicked from 'getClicked';
 const Header = () => {
   return (
     <div className="headerContainer">

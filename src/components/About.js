@@ -5,7 +5,7 @@ const About = () => {
       <p>
         Hi there! I'm Austin French and I'm a web developer. I've spent the past
         year delving into programming and computer science, and for two years
-        prior to that I spent my time as a player and coach in eSports. I'm
+        prior to that I spent my time as a player and coach in esports. I'm
         currently a Project Manager at Lambda School, but I'm looking to line up
         opportunities to pursue after I complete my contract in August.
       </p>
@@ -30,7 +30,7 @@ const About = () => {
         I'm a hard worker and I have an insatiable desire to learn. If you would
         like to learn more about me, check out my <a href="/blog">blog</a> where
         I talk about projects I've worked on and my experience in software
-        development and eSports. If you'd like to contact me in regards to an
+        development and esports. If you'd like to contact me in regards to an
         employment opportunity, check out my <a href="/contact">contact</a>{' '}
         page.
       </p>
