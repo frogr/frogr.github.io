@@ -8,7 +8,7 @@ const Project = () => {
       {ProjectContent.slice(0)
         .map(project => {
           return (
-            <div>
+            <div key={project.id}>
               <h2>
                 <Link to={'/projects/' + project.id}>{project.title}</Link>
               </h2>

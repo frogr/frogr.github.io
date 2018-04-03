@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import getClicked from 'getClicked';
 const Header = () => {
   return (
     <div className="headerContainer">
@@ -8,13 +7,13 @@ const Header = () => {
       <p>fullstack web developer</p>
       <hr />
       <nav>
-        <Link to="/"> home </Link>
+        <Link to="/" className="link"> home </Link>
         /
-        <Link to="#"> blog (under construction) </Link>
+        <Link to="#" className="link"> blog (under construction) </Link>
         /
-        <Link to="/projects"> projects </Link>
+        <Link to="/projects" className="link"> projects </Link>
         /
-        <Link to="/contact"> contact </Link>
+        <Link to="/contact" className="link"> contact </Link>
       </nav>
     </div>
   );
