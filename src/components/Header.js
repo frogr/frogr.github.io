@@ -7,13 +7,25 @@ const Header = () => {
       <p>fullstack web developer</p>
       <hr />
       <nav>
-        <Link to="/" className="link"> home </Link>
+        <Link to="/" className="link">
+          {' '}
+          home{' '}
+        </Link>
         /
-        <Link to="#" className="link"> blog (under construction) </Link>
+        <Link to="#" className="link">
+          {' '}
+          blog (under construction){' '}
+        </Link>
         /
-        <Link to="/projects" className="link"> projects </Link>
+        <Link to="/projects" className="link">
+          {' '}
+          projects{' '}
+        </Link>
         /
-        <Link to="/contact" className="link"> contact </Link>
+        <Link to="/contact" className="link">
+          {' '}
+          contact info{' '}
+        </Link>
       </nav>
     </div>
   );
