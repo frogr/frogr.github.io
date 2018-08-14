@@ -3,36 +3,54 @@ const About = () => {
   return (
     <div className="textContent">
       <p>
-        Hi there! I'm Austin French and I'm a web developer. I've spent the past
-        year delving into programming and computer science, and for two years
-        prior to that I spent my time as a player and coach in esports. I'm
-        currently a Project Manager at Lambda School, but I'm looking to line up
-        opportunities to pursue after I complete my contract in August.
+        Hi there! I'm Austin French and I'm a web developer, poet, and musician.
+        I love to teach and even more I love to learn. I was previously a
+        professional Overwatch player, and now I've made the change into
+        software engineering and I never want to look back. I'm currently
+        looking for opportunities to grow and improve as a developer.
       </p>
       <p>
-        I'm a huge fan of JavaScript (especially React and Node), but naturally
-        I've found myself using all of the following technologies in my
-        experience as well:
+        I've been programming as a hobbyist for a long time before I ever worked
+        professionally in this field, and as such I've built experience in a
+        bunch of cool technologies:
       </p>
-      <div>
-        <ul>
-          <li>HTML/CSS</li>
-          <li>Git</li>
-          <li>jQuery</li>
-          <li>python</li>
-          <li>Django</li>
-          <li>C</li>
-          <li>C++ (UE4)</li>
-          <li>C# (Unity)</li>
-        </ul>
+      <div className="container">
+        <div className="col1">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div className="col2">
+          <ul>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>jQuery</li>
+          </ul>
+        </div>
+        <div className="col3">
+          <ul>
+            <li>python</li>
+            <li>Ruby</li>
+            <li>Rails</li>
+          </ul>
+        </div>
+        <div className="col4">
+          <ul>
+            <li>C</li>
+            <li>C++ (UE4)</li>
+            <li>C# (Unity)</li>
+          </ul>
+        </div>
       </div>
       <p>
         I'm a hard worker and I have an insatiable desire to learn. If you would
         like to learn more about me, check out my <a href="/blog">blog</a> where
         I talk about projects I've worked on and my experience in software
         development and esports. If you'd like to contact me in regards to an
-        employment opportunity, check out my <a href="/contact">contact</a>{' '}
-        page.
+        employment opportunity, or even just to say hi, check out my{' '}
+        <a href="/contact">contact info</a> page.
       </p>
     </div>
   );
