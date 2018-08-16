@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import About from './components/About.js';
 import BlogRoot from './components/blog/BlogRoot';
 import BlogPost from './components/blog/BlogPost';

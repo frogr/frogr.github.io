@@ -3,11 +3,11 @@ const About = () => {
   return (
     <div className="textContent">
       <p>
-        Hi there! I'm Austin French and I'm a web developer, poet, and musician.
-        I love to teach and even more I love to learn. I was previously a
-        professional Overwatch player, and now I've made the change into
-        software engineering and I never want to look back. I'm always looking
-        for opportunities to grow and improve as a developer.
+        I'm a web developer, poet, and musician. I love to teach and even more I
+        love to learn. I was previously a professional Overwatch player, and now
+        I've made the change into software engineering and I never want to look
+        back. I'm always looking for opportunities to grow and improve as a
+        developer, and human.
       </p>
       <p>
         I've been programming as a hobbyist for a long time before I ever worked

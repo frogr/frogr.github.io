@@ -14,7 +14,7 @@ const Header = () => {
         /
         <Link to="/blog/" className="link">
           {' '}
-          blog (under construction){' '}
+          blog{' '}
         </Link>
         /
         <Link to="/projects" className="link">
