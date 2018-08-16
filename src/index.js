@@ -16,7 +16,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 ReactDOM.render(
   <div>
     <Router>
-      <div>
+      <div className="box grad">
         <Route path="/*" component={Header} />
         <Route exact path="/" component={About} />
         <Route exact path="/blog" component={BlogRoot} />

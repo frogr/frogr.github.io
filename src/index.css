@@ -1,13 +1,56 @@
 body {
-  margin: 0;
-  padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: black;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v20H0V0zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm20 0a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM10 37a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm10-17h20v20H20V20zm10 17a7 7 0 1 0 0-14 7 7 0 0 0 0 14z' fill='#C5D8D5' fill-opacity='1.0' fill-rule='evenodd'/%3E%3C/svg%3E");
+  height: 100%;
+  /* background-color: #e2d7dc; */
+  /* background: linear-gradient(to bottom right, #e2d7dc, #c5d8d5) fixed; */
+}
+.box {
+  height: 1200px;
 }
 
+.grad {
+  position: relative;
+}
+
+.grad:after,
+.grad:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  z-index: -1;
+}
+
+.grad:after {
+  background: radial-gradient(circle, red, transparent);
+  background-size: 400%;
+  animation: colorSpin 30s linear infinite;
+}
+
+.grad:before {
+  background-color: yellow;
+}
+h1 {
+  margin-top: 0;
+}
+@keyframes colorSpin {
+  25% {
+    background-position: 0 100%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 100% 0;
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
 a {
   color: blue;
   text-decoration: none;
@@ -25,13 +68,15 @@ img {
 }
 .headerContainer {
   font-size: 1.3rem;
-  border: 2px red dotted;
-  background-color: #e2d7dc;
+  letter-spacing: 2.5px;
+  width: 60%;
+  margin-left: 20%;
 }
 .textContent {
   margin-left: 10%;
   margin-right: 10%;
   font-size: 1.2rem;
+  border-radius: 100px;
 }
 .projectInfo {
   padding-bottom: 3%;
