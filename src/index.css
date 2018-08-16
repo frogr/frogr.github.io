@@ -1,55 +1,67 @@
+html,
 body {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: black;
+  width: 100%;
   height: 100%;
-  /* background-color: #e2d7dc; */
-  /* background: linear-gradient(to bottom right, #e2d7dc, #c5d8d5) fixed; */
-}
-.box {
-  height: 1200px;
+  margin: 0;
+  padding: 0;
 }
 
-.grad {
-  position: relative;
+body {
+  background: linear-gradient(
+    299deg,
+    #e2d7dc,
+    #c5d8d5,
+    #aaeec7,
+    #eabfd2,
+    #d2c8ea,
+    #e5eac8,
+    #fbb5b5
+  );
+  background-size: 600% 600%;
+  -webkit-animation: Gradient 20s ease infinite;
+  -moz-animation: Gradient 20s ease infinite;
+  animation: Gradient 20s ease infinite;
 }
 
-.grad:after,
-.grad:before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  content: '';
-  z-index: -1;
-}
-
-.grad:after {
-  background: radial-gradient(circle, red, transparent);
-  background-size: 400%;
-  animation: colorSpin 30s linear infinite;
-}
-
-.grad:before {
-  background-color: yellow;
-}
-h1 {
-  margin-top: 0;
-}
-@keyframes colorSpin {
-  25% {
-    background-position: 0 100%;
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 100%;
-  }
-  75% {
-    background-position: 100% 0;
+    background-position: 100% 50%;
   }
   100% {
-    filter: hue-rotate(360deg);
+    background-position: 0% 50%;
   }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  margin-top: 0;
 }
 a {
   color: blue;
