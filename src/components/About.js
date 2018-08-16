@@ -6,8 +6,8 @@ const About = () => {
         Hi there! I'm Austin French and I'm a web developer, poet, and musician.
         I love to teach and even more I love to learn. I was previously a
         professional Overwatch player, and now I've made the change into
-        software engineering and I never want to look back. I'm currently
-        looking for opportunities to grow and improve as a developer.
+        software engineering and I never want to look back. I'm always looking
+        for opportunities to grow and improve as a developer.
       </p>
       <p>
         I've been programming as a hobbyist for a long time before I ever worked
@@ -45,12 +45,12 @@ const About = () => {
         </div>
       </div>
       <p>
-        I'm a hard worker and I have an insatiable desire to learn. If you would
-        like to learn more about me, check out my <a href="/blog">blog</a> where
-        I talk about projects I've worked on and my experience in software
-        development and esports. If you'd like to contact me in regards to an
-        employment opportunity, or even just to say hi, check out my{' '}
-        <a href="/contact">contact info</a> page.
+        I'm a hard worker and I love finding elegant solutions to complicated
+        problems. If you would like to learn more about me, check out my{' '}
+        <a href="/blog">blog</a> where I talk about projects I've worked on and
+        my experience in software development and esports. If you'd like to
+        contact me in regards to an employment opportunity, or even just to say
+        hi, check out my <a href="/contact">contact info</a> page.
       </p>
     </div>
   );
