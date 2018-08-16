@@ -45,12 +45,12 @@ const About = () => {
         </div>
       </div>
       <p>
-        I'm a hard worker and I love finding elegant solutions to complicated
+        I'm a hard worker and I enjoy finding elegant solutions to complicated
         problems. If you would like to learn more about me, check out my{' '}
         <a href="/blog">blog</a> where I talk about projects I've worked on and
         my experience in software development and esports. If you'd like to
         contact me in regards to an employment opportunity, or even just to say
-        hi, check out my <a href="/contact">contact info</a> page.
+        hi, check out my <a href="/contact">contact</a> page.
       </p>
     </div>
   );

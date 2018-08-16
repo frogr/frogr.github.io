@@ -24,7 +24,7 @@ const Header = () => {
         /
         <Link to="/contact" className="link">
           {' '}
-          contact info{' '}
+          contact{' '}
         </Link>
       </nav>
     </div>
