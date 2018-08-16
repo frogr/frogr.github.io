@@ -12,7 +12,7 @@ const Header = () => {
           home{' '}
         </Link>
         /
-        <Link to="#" className="link">
+        <Link to="/blog/" className="link">
           {' '}
           blog (under construction){' '}
         </Link>
