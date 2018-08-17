@@ -6,7 +6,12 @@ const BlogPost = ({ match }) => {
     <div>
       <h2>{BlogContent[match.params.id].title}</h2>
       <p>{BlogContent[match.params.id].date}</p>
-      <p>{BlogContent[match.params.id].body}</p>
+      <p className="summary">{BlogContent[match.params.id].summary}</p>
+      <p>
+        <a href={BlogContent[match.params.id].link}>
+          read the whole story on medium
+        </a>
+      </p>
     </div>
   );
 };
