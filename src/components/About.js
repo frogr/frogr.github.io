@@ -12,7 +12,8 @@ const About = () => {
       <p>
         I've been programming as a hobbyist for a long time before I ever worked
         professionally in this field, and as such I've built experience in a
-        bunch of cool technologies:
+        wide range of cool technologies, both in commercial applications and
+        personal projects:
       </p>
       <div className="container">
         <div className="col1">
