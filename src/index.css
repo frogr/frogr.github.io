@@ -77,7 +77,8 @@ li:hover {
 p::selection,
 a::selection,
 li::selection,
-h1::selection {
+h1::selection,
+nav::selection {
   color: green;
 }
 ul {
