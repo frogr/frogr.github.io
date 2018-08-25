@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Contact = () => {
   return (
     <div className="textContent">
+      <p> feel free to contact me for anything you need! </p>
       <p>email: austindanielfrench@gmail.com</p>
       <p>cell: (209) 409 0220</p>
 
