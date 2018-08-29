@@ -110,6 +110,7 @@ img {
   margin-right: 10%;
   font-size: 1.2rem;
   border-radius: 100px;
+  background-color: rgba(249, 250, 234, 0.5);
 }
 .projectInfo {
   padding-bottom: 3%;
