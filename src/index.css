@@ -62,6 +62,13 @@ a {
   color: #4489ff;
   text-decoration: none;
 }
+p {
+  margin-left: 12%;
+  width: 70%;
+}
+h3 {
+  font-weight: 200;
+}
 a:hover {
   color: green;
 }
