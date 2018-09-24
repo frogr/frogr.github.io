@@ -141,3 +141,11 @@ iframe {
   margin-right: 20%;
   line-height: 30px;
 }
+.project {
+  display: inline-block;
+  margin: 5%;
+}
+.projectHeader {
+  margin-top: 1%;
+  padding-top: 1%;
+}
