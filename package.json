@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
-    "overrides": {
+    "resolutions": {
     "mini-css-extract-plugin": "2.4.5"
   },
   "browserslist": {
