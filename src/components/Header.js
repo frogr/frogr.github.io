@@ -12,15 +12,11 @@ const Header = () => {
           home{' '}
         </Link>
         /
-        <Link to="/blog/" className="link">
           {' '}
           blog{' '}
-        </Link>
-        /
-        <Link to="/projects" className="link">
+         /
           {' '}
           projects{' '}
-        </Link>
         /
         <Link to="/contact" className="link">
           {' '}

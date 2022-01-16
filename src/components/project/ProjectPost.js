@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectContent from './project.json';
+// import ProjectContent from './project.json';
 
 const ProjectPost = ({ match }) => {
   return (

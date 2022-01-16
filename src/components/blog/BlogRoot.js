@@ -1,5 +1,5 @@
 import React from 'react';
-import BlogContent from './blog.json';
+// import BlogContent from './blog.json';
 import { Link } from 'react-router-dom';
 
 const Blog = () => {
